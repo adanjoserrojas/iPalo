@@ -21,7 +21,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-## **How We Built It**
+##  **How We Built It**
 
 - **LiDAR Sensing:** Used **ARKit’s SceneDepth API** to get a continuous depth map from the iPhone’s LiDAR sensor.
 - **Plane Estimation:** Implemented a multistep plane-fitting pipeline for stable directional haptic feedback. Outlier samples were removed using the RANSAC algorithm, followed by Total Least Squares plane fitting for accurate surface estimation. Exponential smoothing was applied to reduce jitter from rapid plane-direction changes.
@@ -32,7 +32,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-## **Challenges We Ran Into**
+##  **Challenges We Ran Into**
 
 - Getting **accurate distance data** on varying surfaces.
 - Developing an ergonomic device case.
@@ -45,7 +45,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-## **What We Learned**
+##  **What We Learned**
 
 - How to stream and process LiDAR data efficiently on iOS.
 - BLE communication timing and signal reliability for hardware feedback.
@@ -53,7 +53,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-## **What’s Next**
+##  **What’s Next**
 
 - Integrate **AI-based obstacle classification** using CoreML.
 - Add **spatial audio cues** for richer feedback.
@@ -62,7 +62,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-## **Tech Stack**
+##  **Tech Stack**
 
 - **Swift / ARKit / CoreBluetooth** (iPhone app)
 - **Arduino (C++)** for actuator control
