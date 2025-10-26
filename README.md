@@ -18,7 +18,6 @@ The closer the object, the **stronger and faster** the “tap” feedback, all
 
 To build on top of this, we added voice commands that allows the user to utilize an AI assistant to receive a description of their surroundings.
 
-
 ---
 
 ##  **How We Built It**
@@ -45,7 +44,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-##  **What We Learned**
+##  **What We Learned**
 
 - How to stream and process LiDAR data efficiently on iOS.
 - BLE communication timing and signal reliability for hardware feedback.
@@ -53,7 +52,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-##  **What’s Next**
+##  **What’s Next**
 
 - Integrate **AI-based obstacle classification** using CoreML.
 - Add **spatial audio cues** for richer feedback.
@@ -62,7 +61,7 @@ To build on top of this, we added voice commands that allows the user to utilize
 
 ---
 
-##  **Tech Stack**
+##  **Tech Stack**
 
 - **Swift / ARKit / CoreBluetooth** (iPhone app)
 - **Arduino (C++)** for actuator control
